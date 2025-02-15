@@ -27,7 +27,7 @@ async function main() {
     return;
   }
   const view = div.querySelector('.er_minigame_content');
-  const data = await fetchMockGameData();
+  const data = await fetchGameData();
 
   data.forEach((info) => {
     if (info.PlayUrl) {
